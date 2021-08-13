@@ -31,6 +31,10 @@ let mapleader="\<SPACE>"
 
 map <leader>s :w!<CR>
 map <leader>q :q!<CR>
+" 关闭窗口
+nnoremap <silent> q <esc>:close<cr>
+vnoremap <silent> q <esc>:close<cr
+
 
 " 使用回车打开关闭折叠
 nnoremap <CR> za
